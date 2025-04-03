@@ -3,34 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background: #333; color: white; padding: 15px; font-size: 24px; }
-        section { padding: 20px; }
-        .container { max-width: 800px; margin: auto; }
-        .btn { display: inline-block; padding: 10px 20px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
-        footer { background: #333; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; }
-    </style>
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        My Portfolio
+        <h1>Online Book Library</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <div class="container">
-            <h1>Hi, I'm [Your Name]</h1>
-            <p>Aspiring Web Developer | Cloud Enthusiast | DevOps Learner</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
+
+    <section class="hero">
+        <h2>Welcome to the Online Library</h2>
+        <p>Browse and discover a collection of books.</p>
+        <a href="books.html" class="btn">View Books</a>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Project 1 - Static Website</p>
-        <p>Project 2 - Cloud Deployment</p>
-    </section>
+
     <footer>
-        &copy; 2025 [yanamalachandu]. All Rights Reserved.
+        <p>© 2025 Online Library. All rights reserved.</p>
     </footer>
 </body>
 </html>
